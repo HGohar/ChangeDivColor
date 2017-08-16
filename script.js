@@ -20,21 +20,15 @@ var settings = [
    function changeColor(){
   
       obj = settings[i];
-	 console.log(obj);
 	 for(var key in obj){
 	 if(key=="color"){
-	  colorDiv.innerHTML =obj[key];
-	  
+		colorDiv.innerHTML =obj[key];
 	 }
 	 
 	 if(key=="backgroundColor"){
-	 colorDiv.style.backgroundColor = obj[key];
-	     console.log(key)}
+			colorDiv.style.backgroundColor = obj[key];
+			}
 	      
-	      
-		
-		  
-
 		 }
 		   i++;
 		   if(i==settings.length-1){
