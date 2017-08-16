@@ -37,7 +37,7 @@ var settings = [
 
 		 }
 		   i++;
-		   if(i==settings.length){
+		   if(i==settings.length-1){
 				i=0
 			
 			}
